@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation rec {
   pname = "confluent-cli";
-  version = "3.37.0";
+  version = "3.39.0";
 
   # To get the latest version:
   # curl -L https://cnfl.io/cli | sh -s -- -l | grep -v latest | sort -V | tail -n1
